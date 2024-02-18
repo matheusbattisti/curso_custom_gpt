@@ -1,0 +1,30 @@
+4 - Criando o primeiro Custom GPT -
+
+Quero criar um GPT que ajude os usuários com dados históricos sobre o Brasil, resposta com um tom mais clássico e didático de professor pois o público alvo são alunos do ensino fundamental
+
+Me resposta em português, quero que o nome seja Professor de História do Brasil
+
+P: Cite as revoluções mais importantes do Brasil
+
+7 - Alterando nome
+
+Quero alterar o nome para Professor do Brasil
+
+8 - Alterando a imagem
+
+Quero alterar a imagem para algo mais colorido e que remeta as cores do país
+
+
+15 - Conhecendo a aba de Configure
+
+Crie um novo chat para ajudar pessoas a lavarem roupas
+
+ou seja, escolher: tipo de lavagem, produtos de limpeza, temperatura de secagem e outros
+
+Baseado no tipo de roupa que a pessoa precisa lavar
+
+16 - Refinamento de instruções
+
+Sempre recomende lavar materiais mais refinados na mão.
+
+Q: É possível lavar roupa de seda na máquina?
