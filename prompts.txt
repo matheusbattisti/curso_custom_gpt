@@ -6,9 +6,11 @@ Me resposta em português, quero que o nome seja Professor de História do Brasi
 
 P: Cite as revoluções mais importantes do Brasil
 
+
 7 - Alterando nome
 
 Quero alterar o nome para Professor do Brasil
+
 
 8 - Alterando a imagem
 
@@ -23,8 +25,82 @@ ou seja, escolher: tipo de lavagem, produtos de limpeza, temperatura de secagem 
 
 Baseado no tipo de roupa que a pessoa precisa lavar
 
+
 16 - Refinamento de instruções
 
 Sempre recomende lavar materiais mais refinados na mão.
 
 Q: É possível lavar roupa de seda na máquina?
+
+
+17 - Instruções avançadas
+
+Instrua sobre a lavagem de roupas de algodão versus sintéticas, incluindo temperatura ideal da água e ciclo de lavagem.
+
+Dê conselhos específicos para remover manchas de vinho em tecidos delicados usando produtos domésticos.
+
+Q: Como posso remover mancha de seda?
+
+Se o usuário mencionar 'roupas encolhidas', ofereça técnicas de prevenção e correção.
+
+Para perguntas sobre 'roupas com cheiro de mofo', sugira tratamentos específicos e dicas de armazenamento.
+
+Q: Lavei uma calça e encolheu, o que eu faço?
+
+Se o usuário indicar 'alergias', recomende detergentes hipoalergênicos e métodos de lavagem.
+
+Para 'pais de primeira viagem', forneça dicas sobre lavagem de roupas de bebê e tecidos recomendados.
+
+Q: Sou alérgico a sabão em pó, o que fazer?
+
+
+18 - Recurso de Knowledge
+
+Subir o arquivo
+
+Utilizar o arquivo de Manchas de Café em seda sempre que o usuário ter algum problema com este líquido e este material
+
+Q: Derramei café na minha camisa de seda, o que eu faço?
+
+
+19 - Knowledge com JSON
+
+Utilize o arquivo de Sugestões quando o usuário precisar de produtos específicos para lavar tecidos
+
+Q: Qual o melhor produto para lavar lã?
+
+
+20 - Informações exclusivas
+
+Código de Roupa 145: Lavar na máquina com sabão em pó e sem amaciante
+
+Q: Como lavar a roupa de código 145?
+
+
+21 - Limitando Respostas
+
+Você deve se limitar a roupas, não de dicas de como lavar bonés ou tênis, por exemplo, não faça nenhuma sugestão e diga que foge das suas competências.
+
+Q: Como posso lavar meu tênis depois de uma corrida na praia?
+
+
+26 - Web browsing
+
+Q: Quais as tendências de lavagem de roupa em 2024?
+
+
+Desabilitar Web Browsing
+
+Instruction: Você não pode buscar dados atuais na internet.
+
+Q: Quais as tendências de lavagem de roupa em 2024?
+
+
+27- Browsing e knowledge
+
+Colocar arquivo de Guia de lavagem
+
+Q: Você tem algum guia de lavagem de roupas? (knowledge)
+ 
+Q: Guia de lavagem de roupas em 2024 (browsing)
+
