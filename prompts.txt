@@ -104,3 +104,8 @@ Q: Você tem algum guia de lavagem de roupas? (knowledge)
  
 Q: Guia de lavagem de roupas em 2024 (browsing)
 
+29 - Code interpreter
+
+Subir o arquivo
+
+Q: Poderia me explicar o código deste arquivo?
