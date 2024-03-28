@@ -1,0 +1,54 @@
+openapi: 3.0.0
+info:
+  title: API do OpenWeatherMap
+  version: 2.5
+servers:
+  - url: https://api.openweathermap.org/data/2.5
+paths:
+  /weather:
+    get:
+      operationId: getCurrentWeather
+      summary: Obter dados atuais do tempo
+      parameters:
+        - name: q
+          in: query
+          required: true
+          description: Nome da cidade
+          schema:
+            type: string
+        - name: appid
+          in: query
+          required: true
+          description: Sua chave de API única
+          schema:
+            type: string
+          default: <<<SUA_CHAVE>>>
+      responses:
+        "200":
+          description: Dados meteorológicos
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Weather"
+components:
+  schemas:
+    Weather:
+      type: object
+      properties:
+        main:
+          type: object
+          properties:
+            temp:
+              type: number
+              description: Temperatura em Kelvin
+            humidity:
+              type: number
+              description: Percentual de umidade
+        weather:
+          type: array
+          items:
+            type: object
+            properties:
+              description:
+                type: string
+                description: Descrição da condição climática
